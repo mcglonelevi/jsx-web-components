@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        [
+            "transform-jsx", {
+                "function": "jsx"
+            }
+        ],
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
